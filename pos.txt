@@ -1,0 +1,14 @@
+positive\output.jpg 1 1423 158 730 705
+positive\output_10.jpg 1 1843 544 592 504
+positive\output_11.jpg 1 1689 540 666 508
+positive\output_12.jpg 1 1875 516 676 532
+positive\output_13.jpg 0
+positive\output_14.jpg 1 2020 166 561 559
+positive\output_2.jpg 1 1367 704 305 316
+positive\output_3.jpg 0
+positive\output_4.jpg 0
+positive\output_5.jpg 0
+positive\output_6.jpg 1 1817 375 530 508
+positive\output_7.jpg 1 1750 715 624 360
+positive\output_8.jpg 1 1869 100 507 566
+positive\output_9.jpg 1 1964 90 505 576
