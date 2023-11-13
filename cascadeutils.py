@@ -16,8 +16,13 @@ def generate_negative_description_file():
         for filename in os.listdir('negative'):
             f.write('negative/' + filename + '\n')
 
-
-generate_negative_description_file()
+import pyautogui
+def getWindowNames():
+    windows = pyautogui.getAllWindows()
+    for window in windows:
+        if window.title:
+            print(window.title)
+getWindowNames()
 # the opencv_annotation executable can be found in opencv/build/x64/vc15/bin
 # generate positive description file using:
 # $ C:/Users/Ben/learncodebygaming/opencv/build/x64/vc15/bin/opencv_annotation.exe --annotations=pos.txt --images=positive/
@@ -37,3 +42,9 @@ generate_negative_description_file()
 
 # my final classifier training arguments:
 # $ C:/Users/Ben/learncodebygaming/opencv/build/x64/vc15/bin/opencv_traincascade.exe -data cascade/ -vec pos.vec -bg neg.txt -precalcValBufSize 6000 -precalcIdxBufSize 6000 -numPos 200 -numNeg 1000 -numStages 12 -w 24 -h 24 -maxFalseAlarmRate 0.4 -minHitRate 0.999
+
+# "C:\Users\antho\OneDrive\Documents\00 UNI\StreetDrone\OpenCV\opencv\build\x64\vc15\bin\opencv_annotation.exe" --annotations=pos.txt --images=positive/
+
+# "C:\Users\antho\OneDrive\Documents\00 UNI\StreetDrone\OpenCV\opencv\build\x64\vc15\bin\opencv_createsamples.exe" -info pos.txt -w 108 -h 108 -num 1000 -vec pos.vec
+
+# "C:\Users\antho\OneDrive\Documents\00 UNI\StreetDrone\OpenCV\opencv\build\x64\vc15\bin\opencv_traincascade.exe" -data cascade/ -vec pos.vec -bg neg.txt -precalcValBufSize 2000 -precalcIdxBufSize 2000 -numPos 12 -numNeg 30 -numStages 10 -w 108 -h 108 -maxFalseAlarmRate 0.4 -minHitRate 0.99

@@ -1,14 +1,14 @@
-positive\output.jpg 1 1423 158 730 705
-positive\output_10.jpg 1 1843 544 592 504
-positive\output_11.jpg 1 1689 540 666 508
-positive\output_12.jpg 1 1875 516 676 532
-positive\output_13.jpg 0
-positive\output_14.jpg 1 2020 166 561 559
-positive\output_2.jpg 1 1367 704 305 316
+positive\output.jpg 1 1449 172 694 695
+positive\output_10.jpg 1 1859 552 566 587
+positive\output_11.jpg 1 1695 545 730 594
+positive\output_12.jpg 1 1870 515 663 767
+positive\output_13.jpg 1 991 474 532 550
+positive\output_14.jpg 1 2031 174 518 547
+positive\output_2.jpg 1 1362 708 304 304
 positive\output_3.jpg 0
 positive\output_4.jpg 0
-positive\output_5.jpg 0
-positive\output_6.jpg 1 1817 375 530 508
-positive\output_7.jpg 1 1750 715 624 360
-positive\output_8.jpg 1 1869 100 507 566
-positive\output_9.jpg 1 1964 90 505 576
+positive\output_5.jpg 1 1557 1062 322 329
+positive\output_6.jpg 1 1833 384 508 486
+positive\output_7.jpg 1 1763 722 610 587
+positive\output_8.jpg 1 1877 104 496 560
+positive\output_9.jpg 1 1965 94 502 554

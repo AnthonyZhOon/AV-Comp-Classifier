@@ -10,8 +10,8 @@ class Vision:
 
     # properties
     needle_img = None
-    needle_w = 0
-    needle_h = 0
+    needle_w = 1920
+    needle_h = 1080
     method = None
 
     # constructor

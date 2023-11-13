@@ -11,9 +11,9 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # initialize the WindowCapture class
 wincap = WindowCapture("DroidCam Client") # Use the window name, I used pyautogui's getAllWindows() function and for all windows print window.title
-print(wincap)
+# print(wincap.list_window_names())
 # load the trained model
-cascade_limestone = cv.CascadeClassifier('cascade.xml') # The file name of the cascade model in current directory
+cascade_limestone = cv.CascadeClassifier('108size_cascade.xml') # The file name of the cascade model in current directory
 # load an empty Vision class
 vision_limestone = Vision(None)
 loop_time = time()
